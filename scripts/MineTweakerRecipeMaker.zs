@@ -12,9 +12,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<icbmclassic:explosives:12>);
 recipes.remove(<thermalexpansion:machine:4>);
 recipes.remove(<thermalexpansion:machine:7>);
-recipes.remove(<enderio:block_slice_and_splice>);
 recipes.remove(<mekanism:machineblock:2>);
 recipes.remove(<mekanism:machineblock:1>);
 recipes.remove(<mekanism:machineblock>);
@@ -51,15 +51,16 @@ recipes.removeShaped(<enderio:block_sag_mill>, [[<ore:itemFlint>, <minecraft:pis
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<simplyjetpacks:itemjetpack>, [[<minecraft:bedrock>, null, <minecraft:bedrock>], [<minecraft:bedrock>, <simplyjetpacks:itemjetpack:18>, <minecraft:bedrock>], [<minecraft:bedrock>, null, <minecraft:bedrock>]]);
 recipes.addShaped(<thermalexpansion:machine:4>, [[<ore:gearAluminum>, <ore:gearAluminum>, <ore:gearAluminum>], [<ore:gearLumium>, <thermalexpansion:frame>, <ore:gearLumium>], [<ore:gearLumium>, <thermalfoundation:material:513>, <ore:gearLumium>]]);
 recipes.addShaped(<thermalexpansion:machine:7>, [[<ore:gearAluminum>, <ore:gearAluminum>, <ore:gearAluminum>], [<thermalexpansion:machine>, <thermalexpansion:frame>, <thermalexpansion:machine>], [<ore:gearSignalum>, <thermalfoundation:material:513>, <ore:gearSignalum>]]);
-recipes.removeShaped(<enderio:block_slice_and_splice>, [[<ore:ingotDarkSteel>, <enderio:item_material:14>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, <ore:itemMachineChassi>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, <ore:blockSoularium>, <ore:ingotDarkSteel>]]);
+recipes.addShaped(<enderio:block_slice_and_splice>, [[<ore:ingotDarkSteel>, <enderio:item_material:14>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, <ore:itemMachineChassi>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, <ore:blockSoularium>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<enderio:block_vat>, [[<ore:itemPulsatingCrystal>, <ore:ingotBrickNetherGlazed>, <ore:itemPulsatingCrystal>], [<ore:itemMachineChassi>, <ore:blockDarkSteel>, <ore:itemMachineChassi>], [<ore:ingotSoularium>, <ore:ingotBrickNetherGlazed>, <ore:ingotSoularium>]]);
 recipes.addShaped(<mekanism:machineblock:2>, [[<ore:obsidian>, <ore:circuitElite>, <ore:obsidian>], [<ore:ingotEnergeticAlloy>, <mekanism:basicblock:8>, <ore:ingotEnergeticAlloy>], [<ore:obsidian>, <ore:circuitElite>, <ore:obsidian>]]);
 recipes.addShaped(<mekanism:machineblock:1>, [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], [<mekanism:controlcircuit:2>, <mekanism:basicblock:8>, <mekanism:controlcircuit:2>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
 recipes.addShaped(<enderio:block_sag_mill>, [[<ore:itemFlint>, <minecraft:piston>, <ore:itemFlint>], [<ore:ingotCopper>, <ore:itemMachineChassi>, <ore:ingotCopper>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
 recipes.addShaped(<mekanism:machineblock:8>, [[<thermalfoundation:material:513>, <minecraft:piston>, <thermalfoundation:material:513>], [<minecraft:iron_ingot>, <mekanism:basicblock:8>, <minecraft:iron_ingot>], [<thermalfoundation:material:513>, <minecraft:iron_ingot>, <thermalfoundation:material:513>]]);
-recipes.addShaped(<mekanism:machineblock2:5>, [[<thermalfoundation:material:513>, <minecraft:iron_axe>, <thermalfoundation:material:513>], [<thermalfoundation:material:128>, <mekanism:basicblock:8>, <thermalfoundation:material:128>], [<thermalfoundation:material:513>, <minecraft:iron_axe>, <thermalfoundation:material:513>]]);
+recipes.addShaped(<mekanism:machineblock2:5>, [[<thermalfoundation:material:513>, <minecraft:iron_axe>, <thermalfoundation:material:513>], [<ore:ingotIron>, <mekanism:basicblock:8>, <ore:ingotIron>], [<thermalfoundation:material:513>, <minecraft:iron_axe>, <thermalfoundation:material:513>]]);
 recipes.addShaped(<mekanism:machineblock:10>, [[<thermalfoundation:material:513>, <minecraft:furnace>, <thermalfoundation:material:513>], [<minecraft:iron_ingot>, <mekanism:basicblock:8>, <minecraft:iron_ingot>], [<thermalfoundation:material:513>, <minecraft:furnace>, <thermalfoundation:material:513>]]);
 recipes.addShaped(<mekanism:machineblock>, [[<thermalfoundation:material:513>, <minecraft:piston>, <thermalfoundation:material:513>], [<minecraft:iron_ingot>, <mekanism:basicblock:8>, <minecraft:iron_ingot>], [<thermalfoundation:material:513>, <minecraft:piston>, <thermalfoundation:material:513>]]);
 recipes.addShaped(<mekanism:basicblock:8>, [[<minecraft:iron_ingot>, <ore:blockGlassColorless>, <minecraft:iron_ingot>], [<ore:blockGlassColorless>, <ore:gearIron>, <ore:blockGlassColorless>], [<minecraft:iron_ingot>, <ore:blockGlassColorless>, <minecraft:iron_ingot>]]);

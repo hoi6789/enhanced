@@ -38,6 +38,8 @@ recipes.addShapeless(<minecraft:end_stone> * 4, [<ore:stone>, <ore:stone>, <ore:
 recipes.addShapeless(<enderio:item_material:19>, [<enderio:item_material:15>, <enderio:item_material:40>]);
 recipes.addShapeless(<enderio:item_material:16>, [<enderio:item_material:15>, <enderio:item_material:43>]);
 mods.enderio.SagMill.removeRecipe(<enderio:item_material:15>);
+recipes.addShaped(<simplyjetpacks:metaitemmods:21>, [[null, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}), null], [<forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}), <simplyjetpacks:metaitemmods:20>, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000})], [null, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}), null]]);
+recipes.addShaped(<simplyjetpacks:metaitemmods:19>, [[null, <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000}), null], [<forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000}), <simplyjetpacks:metaitemmods:18>, <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000})], [null, <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000}), null]]);
 
 mods.enderio.SagMill.removeRecipe(<enderio:item_material:20>);
 
